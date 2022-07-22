@@ -1,0 +1,293 @@
+.body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e7e7e7;
+    background-image: url("../assets/bgbg2.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+}
+
+.formularioDiv {
+    width: 30%;
+    margin: auto;
+    box-shadow: 2px 5px 20px rgb(77, 77, 77);
+    margin-top: 3%;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 15px;
+    border-color: rgba(239, 104, 104, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(239, 104, 104, 0.6);
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    user-select: none;
+}
+
+.btn {
+    margin: 6px;
+    position: relative;
+    border-radius: 25px !important;
+}
+
+label:active,
+label:hover {
+    border-color: rgba(240, 124, 124, 0.877));
+    color: #cc0000;
+    cursor: pointer;
+}
+
+.titulo {
+    margin: 10px;
+    user-select: none;
+}
+
+#auth {
+    user-select: none;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+
+#voltar {
+    position: absolute;
+    font-size: 30px;
+    margin-top: -10px;
+    color: red;
+    user-select: none;
+    text-shadow: 0px 0px 3px rgb(238, 125, 125)
+}
+
+@keyframes voltar {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.08);
+        -webkit-transform: scale(1.08);
+    }
+}
+
+#voltar:hover {
+    animation: voltar 1s ease-in-out infinite alternate;
+    -webkit-animation: voltar 1s ease-in-out infinite alternate;
+    color: rgb(165, 0, 0);
+    text-shadow: 0px 0px 3px rgb(241, 60, 60)
+}
+
+.mb-3 {
+    margin: 5px;
+    border-color: red;
+}
+
+.logoTelecall {
+    width: 40%;
+    margin: 10px auto auto;
+    display: block;
+    margin-bottom: -5px;
+    user-select: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="checkbox"]:checked,
+input[type="color"]:focus,
+.uneditable-input:focus,
+textarea:focus {
+    border-color: rgba(239, 104, 104, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(239, 104, 104, 0.6);
+    outline: 0 none;
+    accent-color: red;
+    transition: 0.7s !important;
+    background-image: linear-gradient( 174.2deg, rgba(255, 244, 228, 1) 7.1%, rgba(240, 246, 238, 1) 67.4%) !important;
+}
+
+.areaclienteimg {
+    width: 6%;
+}
+
+.avisos {
+    margin: auto;
+    width: 30%;
+    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: 2px 5px 20px #757575;
+    background-color: #f0f0f0;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 10px;
+    border-color: rgba(239, 104, 104, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(239, 104, 104, 0.6);
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    user-select: none;
+}
+
+.texto {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin: -10px 10px 10px;
+    cursor: default;
+}
+
+.areacli {
+    position: relative;
+    margin: -10px 10px 10px;
+    cursor: default;
+}
+
+.maparj {
+    width: 100%;
+    align: center;
+    text-align: center;
+    display: block margin: auto auto 10px;
+    filter: grayscale(80%);
+    transition: all 0.25s ease-out;
+}
+
+.maparj:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+
+.naoTemCnt {
+    margin: -10px auto auto -6px;
+    text-align: right;
+    margin-right: 6px;
+}
+
+.exigido {
+    color: red;
+}
+
+.naoTemCnt {
+    text-decoration: none;
+}
+
+.titulo:hover {
+    cursor: default;
+}
+
+.btn-outline-info:hover {
+    color: white;
+}
+
+.showpasswd {
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-bottom: -5px;
+}
+
+.showpasswd:hover {
+    cursor: default;
+}
+
+#botao:hover {
+    transform: scale(1.05);
+}
+
+#botao {
+    transition: 0.7s;
+}
+
+@keyframes enviar {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.06);
+        -webkit-transform: scale(1.06);
+    }
+}
+
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: rgb(0, 74, 123) !important;
+    accent-color: rgb(0, 74, 123) !important;
+}
+
+.btn-outline-primary {
+    border-color: rgb(0, 74, 123) !important;
+    color: rgb(0, 103, 172) !important;
+    transition: 0.3s !important;
+}
+
+.btn-danger {
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%) !important
+}
+
+.btn-danger {
+    text-transform: uppercase !important;
+    transition: 0.5s !important;
+    background-size: 200% auto !important;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(161, 72, 72) !important;
+    border-radius: 25px !important;
+}
+
+.btn-danger:hover {
+    background-position: right center !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgb(236, 138, 138) 0%, rgb(196, 105, 105) 100%);
+    border-radius: 30px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.247);
+}
+
+#error {
+    color: rgba(243, 44, 44, 0.863);
+    font-size: 16px;
+    padding: 5px;
+    display: none;
+    background-color: rgb(243, 169, 169);
+    border-radius: 6px;
+    margin: 0 auto;
+    width: 55%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+#success {
+    color: rgba(10, 107, 15, 0.863);
+    font-size: 16px;
+    padding: 5px;
+    display: none;
+    background-color: rgb(181, 243, 169);
+    border-radius: 6px;
+    margin: 0 auto;
+    width: 55%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+@media (max-width: 1000px) {
+    .formularioDiv,
+    .avisos {
+        width: 80%;
+    }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <!--Fim GFonts-->
+    <title>Telecall - Autenticação</title>
+
+    <!--CSS Local-->
+    <link rel="stylesheet" href="css/style copy.css">
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <body class="body">
+        <!--Logo-->
+        <div class="logoTelecall">
+            <a href="CPaaS.html">
+                <img class="logoTelecall" src="assets/telecall-logo.svg">
+            </a>
+        </div>
+        <!--Formulário-->
+        <div class="formularioDiv">
+            <form class="form" method="get">
+                <div class="titulo">
+                    <a href="CPaaS.html"><i id="voltar" class="bi bi-box-arrow-in-left"></i></a>
+                    <h4 id="auth" class="text-center">Seja cliente!</h4>
+                    <div id="error" class="text-center"></div>
+                    <div id="success" class="text-center"></div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="mb-3">
+                                <label id="labNome" for="inputNome" class="form-label"><i class="bi bi-person-lines-fill"></i> Nome completo: <label for="inputNome" class="exigido">*</label></label>
+                                <div id="divValidar1"></div>
+                                <input type="text" class="form-control border-2" id="inputNome" placeholder="Insira seu nome completo" autocomplete="off" maxlength="60" onkeypress="return /^[a-zA-Z\s]*$/i.test(event.key)">
+                            </div>
+                            <div class="mb-3">
+                                <label id="labData" for="inputData" class="form-label"><i class="bi bi-calendar-date-fill"></i> Data de Nascimento: <label for="inputData" class="exigido">*</label></label>
+                                <div id="divValidar2"></div>
+                                <input type="date" class="form-control border-2" name="nascimento" id="inputData" oninput="dataValid(validadata(this.value))" placeholder="Insira sua data de nascimento" maxlength="9">
+                            </div>
+                            <div class="mb-3">
+                                <label id="labMat" for="inputMaterno" class="form-label"><i class="bi bi-person-heart"></i> Nome materno: <label for="inputMaterno" class="exigido">*</label></label>
+                                <div id="divValidar3"></div>
+                                <input type="text" class="form-control border-2" id="inputMaterno" placeholder="Insira o nome de sua mãe" autocomplete="off" maxlength="60" onkeypress="return /^[a-zA-Z\s]*$/i.test(event.key)">
+                            </div>
+                            <div class="mb-3">
+                                <label id="labPat" for="inputPaterno" class="form-label"><i class="bi bi-person-check-fill"></i> Nome paterno: </label>
+                                <div id="divValidar4"></div>
+                                <input type="text" class="form-control border-2" id="inputPaterno" placeholder="Insira o nome de seu pai" autocomplete="off" maxlength="60" onkeypress="return /^[a-zA-Z\s]*$/i.test(event.key)">
+                            </div>
+                            <div class="mb-3">
+                                <label id="labCpf" for="inputCpfCad" class="form-label"><i class="bi bi-person-circle"></i> CPF do Titular: <label for="inputCpfCad" class="exigido">*</label></label>
+                                <div id="divValidar5"></div>
+                                <input oninput="validaCpf(TestaCPF(this.value)), mascarax(this);" name="cpf" autocomplete="off" type="text" class="form-control border-2" id="inputCpfCad" placeholder="Insira seu CPF" autocomplete="off">
+                            </div>
+                            <div class="mb-3">
+                                <label id="labTelefone" for="telefone" class="form-label"><i class="bi bi-phone-fill"></i> Telefone celular: <label for="telefone" class="exigido">*</label></label>
+                                <div id="divValidar6"></div>
+                                <input type="text" class="form-control border-2" id="telefone" placeholder="Insira seu número de celular" autocomplete="off" maxlength="15" onkeypress="return /[0-9]/i.test(event.key)">
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="mb-3">
+                                <label id="labFixo" for="fixo" class="form-label"><i class="bi bi-telephone-fill"></i> Telefone fixo: </label>
+                                <div id="divValidar7"></div>
+                                <input onkeydown="Mascara(this);" type="text" class="form-control border-2" id="fixo" onkeypress="return /[0-9]/i.test(event.key)" placeholder="Insira seu número fixo" autocomplete="off" maxlength="14">
+                            </div>
+                            <div class="mb-3">
+                                <label id="labEndereco" for="inputEndereco" class="form-label"><i class="bi bi-pin-map-fill"></i> Endereço completo: <label for="inputEndereco" class="exigido">*</label></label>
+                                <div id="divValidar8"></div>
+                                <input type="text" class="form-control border-2" id="inputEndereco" autocomplete="off" placeholder="Cidade, Bairro, Rua, Número e Complemento">
+                            </div>
+                            <div class="mb-3">
+                                <label id="labLogin" for="inputLogin" class="form-label"><i class="bi bi-box-arrow-in-down-right"></i> Apelido: <label for="inputLogin" class="exigido">*</label></label>
+                                <div id="divValidar9"></div>
+                                <input type="text" class="form-control border-2" id="inputLogin" placeholder="Insira o seu nome que será mostrado" autocomplete="off" minlength="6" oninput="allLetter()" onkeypress="return /^[a-zA-Z\s]*$/i.test(event.key)">
+                            </div>
+                            <div class="mb-3">
+                                <label id="labEmail" for="inputEmail" class="form-label"><i class="bi bi-envelope-check-fill"></i> E-mail: <label for="inputEmail" class="exigido">*</label></label>
+                                <div id="divValidar10"></div>
+                                <input type="email" name="email" oninput="validate(this.value);" class="form-control border-2" id="inputEmail" placeholder="Insira um e-mail válido!" autocomplete="off">
+                            </div>
+                            <div class="mb-3">
+                                <label id="labPasswd" for="password" class="form-label"><i class="bi bi-key-fill"></i> Senha: <label for="password" class="exigido">*</label></label>
+                                <div id="divValidar11"></div>
+                                <input type="password" class="form-control border-2" id="password" placeholder="Insira sua senha..." autocomplete="off" minlength="8">
+                            </div>
+                            <div class="mb-3">
+                                <label id="labConfirm" for="confirm_password" class="form-label"><i class="bi bi-lock-fill"></i> Confirmar Senha: <label for="confirm_password" class="exigido">*</label></label>
+                                <div id="divValidar12"></div>
+                                <input type="password" class="form-control border-2" id="confirm_password" placeholder="Insira sua senha novamente" autocomplete="off" minlength="8">
+                            </div>
+                        </div>
+                        <div class="botoes"><button type="button" class="btn btn-danger" id="botao" onclick="cadastrar()">CADASTRAR <i class="bi bi-cart-plus"></i></button><a href="telalogin.html" id="naoTemCnt" class="naoTemCnt"><button type="button" class="btn btn-outline-primary">Voltar <i class="bi bi-arrow-left-circle"></i></button></a></div>
+            </form>
+            </div>
+    </body>
+    <!--Máscara-->
+    <script src="js/mascaraCpf.js"></script>
+    <script src="js/showpass.js"></script>
+    <script src="js/mascaracel.js"></script>
+    <script src="js/somenteletras.js"></script>
+    <script src="js/confirmarsenha.js"></script>
+    <script src="js/mascaranova.js"></script>
+    <script src="js/validacaosenha.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+    <!--JS Bootstrap-->
+
+</html>

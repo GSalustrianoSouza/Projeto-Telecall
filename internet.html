@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <title>Telecall - Internet</title>
+    <!--CSS Local-->
+    <link rel="stylesheet" href="css/cpaas.css">
+    <link rel="stylesheet" href="css/internet.css">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/carousel.rtl.css">
+    <link rel="stylesheet" href="css/pricing.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <!--Fim GFonts-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <body class="body">
+        <!--Inicio Header--->
+        <nav class="py-2 border-bottom">
+            <div class="container d-flex flex-wrap">
+                <ul class="nav me-auto" id="menutop">
+                    <li class="nav-item"><a href="CPaaS.html" class="nav-link link-danger px-2" aria-current="page"><i class="bi bi-house-door-fill"></i> Home</a></li>
+                    <li class="nav-item"><a href="internet.html" class="nav-link link-danger px-2 active disabled"><i class="bi bi-ethernet"></i> Internet</a></li>
+                    <li class="nav-item"><a href="telefonia.html" class="nav-link link-danger px-2"><i class="bi bi-telephone-fill"></i> Telefonia</a></li>
+                    <li class="nav-item"><a href="redeinfra.html" class="nav-link link-danger px-2"><i class="bi bi-hdd-rack-fill"></i> Rede e Infraestrutura</a></li>
+                    <li class="nav-item"><a href="movel.html" class="nav-link link-danger px-2"><i class="bi bi-phone-fill"></i> Mobilidade</a></li>
+                </ul>
+                <div class="botoesTopTela">
+
+                    <ul class="nav">
+                        <a href="telalogin.html">
+                            <li class="nav-item" id="botaoClientex"><button type="button" href="#" class="btn btn-outline-secondary btn-sm"><i class="bi bi-person-circle"></i> Área do cliente</button></li>
+                        </a>
+                        <a href="telacadastro.html">
+                            <li class="nav-item" id="botaoCad"><button type="button" href="#" class="btn btn-danger btn-sm"><i class="bi bi-cart-plus"></i> Seja cliente</button></li>
+                        </a>
+                        <div id="logged"></div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="py-3 mb-4 border-bottom">
+            <div class="container d-flex flex-wrap justify-content-center">
+                <a href="CPaaS.html" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32"></svg>
+                    <img class="logoHead" src="assets/imagens/logo19646.png">
+                </a>
+                <!--Menu Lateral-->
+                <input type="checkbox" id="chk" class="checkbox">
+                <label for="chk" class="labelDrk">
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+                <button class="btn btn-outline-danger shadow-none" id="btnside" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-layout-text-sidebar-reverse"></i> CPaaS</button>
+            </div>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel"><i class="bi bi-cart-check-fill"></i> Serviços CPaaS:</h5>
+                    <button type="button" class="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link link-danger p-4" href="sobreCpaas.html"><i class="bi bi-info-circle-fill"></i> O que é?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-danger p-4" href="2fapage.html"><i class="bi bi-shield-lock-fill"></i> Two Factor Authentication (2FA)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-danger p-4" href="numeromask.html"><i class="bi bi-incognito"></i> Número Máscara</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-danger p-4" href="googlever.html"><i class="bi bi-google"></i> Google Verified Calls</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-danger p-4" href="sms.html"><i class="bi bi-envelope-check-fill"></i> SMS Programável</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!--Fim Header--->
+        <!--Inicio conteudo principal--->
+        <main>
+            <div class="px-4 py-5 my-5 text-center border-bottom">
+                <img class="d-block mx-auto mb-4" src="assets/imagens/icons/pngs/internet.png" alt="" width="125" height="125">
+                <h1 class="display-5 fw-bold">Serviços de Internet</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">A Telecall oferece todo tipo de serviço de internet para sua empresa, cadastre-se para adquirir alguns de nossos planos ou se preferir entre em contato conosco pelo Whatsapp. Segue abaixo a lista de produtos que oferecemos!</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="telacadastro.html" target="_blank" class="p-0 text-muted">
+                            <button type="button" class="btn btn-danger btn-lg px-4 me-sm-3"><i class="bi bi-person-circle"></i> Criar conta</button>
+                            <a href="https://api.whatsapp.com/send/?phone=5521936180100&text&app_absent=0" target="_blank" class="p-0 text-muted"><button type="button" class="btn btn-outline-success btn-lg px-4"><i class="bi bi-whatsapp"></i> Whatsapp</button></a>
+                    </div>
+                </div>
+            </div>
+            <!--Produtos-->
+            <!--Placeholders-->
+            <div class="separa">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="assets/imagens/internet/dedicada.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-ethernet"></i> Internet Dedicada</h5>
+                                    <p class="card-text">Internet dedicada de máxima qualidade, disponibilidade e segurança.</p>
+                                    <a href="#" class="btn btn-danger btncard"><i class="bi bi-check-circle-fill"></i> Assine já!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="assets/imagens/internet/bandalarga.jpg" class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-globe2"></i> Banda Larga</h5>
+                                    <p class="card-text">Internet em fibra ótica de alta qualidade e velocidade.</p>
+                                    <a href="#" class="btn btn-danger"><i class="bi bi-check-circle-fill"></i> Assine já!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="assets/imagens/internet/router.jpg" class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-wifi"></i> Wi-Fi</h5>
+                                    <p class="card-text">Internet sem fio de alta velocidade, performance e estabilidade.</p>
+                                    <a href="#" class="btn btn-danger"><i class="bi bi-check-circle-fill"></i> Assine já!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+        </main>
+        <!--Inicio Footer-->
+        <div class="footer">
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <a href="CPaaS.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                            <img src="assets/imagens/logoicon.png" class="bi logoHead" width="40" height="40"></img>
+                        </a>
+                        <span class="text-muted">Copyright &copy; 2018 Telecall.</span>
+                    </div>
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        <li class="ms-3"><a class="text-danger" href="https://www.facebook.com/TelecallBr" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                        <li class="ms-3"><a class="text-danger" href="https://www.instagram.com/telecallbr/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                        <li class="ms-3"><a class="text-danger" href="https://www.linkedin.com/company/telecall/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                        <li class="ms-3"><a class="text-danger" href="https://api.whatsapp.com/send/?phone=5521936180100&text&app_absent=0" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+        <!--Fim Footer-->
+    </body>
+    <script src="js/auth.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/CPaaS.js"></script>
+
+</html>
