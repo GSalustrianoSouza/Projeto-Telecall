@@ -23,7 +23,7 @@
 - Função de acessibilidade podendo alterar para modo escuro através de um botão no menu de navegação.
 
 <p align="center">
-  <img width="860" height="600" src="https://i.imgur.com/67inT6r.png">
+  <img width="860" height="600" src="https://i.imgur.com/EnJKGD1.png">
 </p>
 
 ## Frameworks utilizadas:
