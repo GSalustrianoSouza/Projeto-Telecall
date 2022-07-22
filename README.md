@@ -1,8 +1,8 @@
 # <a href="https://telecall.com.br/" target="_blank">Projeto Telecall (2022.1)</a>
 
-- 💻 Projeto proposto pela empresa de telecomunicações **Telecall** em parceria com o **Centro Universitário Augusto Motta (UNISUAM)** para o primeiro semestre do curso de Análise e Desenvolvimento de Sistemas (1/5).
+- 💻 Projeto proposto pela empresa de telecomunicações **Telecall** em parceria com o **Centro Universitário Augusto Motta (UNISUAM)** para o _**primeiro semestre**_ do curso de _**Análise e Desenvolvimento de Sistemas (1/5)**_.
 
-### ‼️ O Projeto pode conter certas inconsistências devido a alterações no código para ser upado no GitHub. ‼️
+### ‼️ O Projeto pode conter certas _inconsistências_ devido a alterações no código para ser upado no GitHub. ‼️
 
 ## 🌐 Site completo incluindo:
 
