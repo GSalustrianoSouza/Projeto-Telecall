@@ -2,7 +2,7 @@
 
 - Projeto proposto pela empresa de telecomunicações **Telecall** em parceria com o **Centro Universitário Augusto Motta (UNISUAM)** para o primeiro semestre do curso de Análise e Desenvolvimento de Sistemas (1/5).
 
-### !>>> O site ainda está com algumas inconsistências devido à alterações no framework para ser upado no GitHub. <<<!
+### Pode haver certas inconsistências devido a alterações no código para ser upado no GitHub.
 
 ## Site completo incluindo:
 
