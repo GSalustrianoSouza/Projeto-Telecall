@@ -28,6 +28,6 @@
   <img align="center" alt="js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg">
 </div>
 
-# <a href="https://gsalustrianosouza.github.io/Projeto-Telecall/CPaaS.html" target="_blank">📌 Clique aqui para pré-visualização</a>
+# <a href="https://gsalustrianosouza.github.io/Projeto-Telecall/CPaaS.html" target="_blank">👉🏼 CLIQUE AQUI PARA PRÉ-VISUALIZAR</a>
 
           
