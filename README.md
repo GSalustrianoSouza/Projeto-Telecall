@@ -18,9 +18,13 @@
 
 ## ⚙️ Funcionalidades:
 
-- 🟢 O site conta com tela de login e cadastro utilizando **validação** em JavaScript e armazenamento de dados locais no navegador por meio de **localStorage**.
-- 🟢 Ao efetuar o cadastro e autenticação, o usuário é redirecionado à página inicial do website contendo seu apelido na parte superior e um botão para log-out.
-- 🟢 Função de acessibilidade podendo alterar para modo escuro através de um botão no menu de navegação.
+- O site conta com tela de login e cadastro utilizando **validação** em JavaScript e armazenamento de dados locais no navegador por meio de **localStorage**.
+- Ao efetuar o cadastro e autenticação, o usuário é redirecionado à página inicial do website contendo seu apelido na parte superior e um botão para log-out.
+- Função de acessibilidade podendo alterar para modo escuro através de um botão no menu de navegação.
+
+<p align="center">
+  <img width="460" height="300" src="https://imgur.com/a/L08F1fV">
+</p>
 
 ## Frameworks utilizadas:
 <div style="display: inline_block">
