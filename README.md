@@ -1,16 +1,25 @@
-# <a href="https://telecall.com.br/" target="_blank">Projeto Telecall</a>
+# <a href="https://telecall.com.br/" target="_blank">Projeto Telecall (2022.1)</a>
 
-- Projeto destinado a empresa de telecomunicações **Telecall**.
+- Projeto proposto pela empresa de telecomunicações **Telecall** em parceria com o **Centro Universitário Augusto Motta (UNISUAM)** para o primeiro semestre do curso de Análise e Desenvolvimento de Sistemas (1/5).
 
-### Site completo incluindo:
+### !>>> O site ainda está com algumas inconsistências devido à alterações no framework para ser upado no GitHub. <<<!
 
+## Site completo incluindo:
+
+- Tela de cadastro de usuário
 - Tela de autenticação
 - Tela inicial (Home Page)
-- Tela para cada produto anunciado
-- Formulário para pedidos
-- Barra de navegação
-- Menu suspenso
-- Dark mode (opcional)
+- Tela para serviços prestados
+- Tela de serviços **CPaaS**
+- Menu de navegação
+- Submenu (side-menu)
+- Dark mode
+
+## Funcionalidades:
+
+- O site conta com tela de login e cadastro utilizando **validação** em JavaScript e armazenamento de dados locais no navegador por meio de **localStorage**.
+- Ao efetuar o cadastro e autenticação, o usuário é redirecionado à página inicial do website contendo seu apelido na parte superior e um botão para log-out.
+- Função de acessibilidade podendo alterar para modo escuro através de um botão no menu de navegação.
 
 ## Tecnologias utilizadas:
 <div style="display: inline_block">
