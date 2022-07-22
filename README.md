@@ -6,7 +6,7 @@
 
 ## 🌐 Site completo incluindo:
 
-✔️ Tela de cadastro de usuários
+✔️ Tela de cadastro de usuários<br>
 ✔️ Tela de autenticação
 ✔️ Tela inicial (Home Page)
 ✔️ Tela para serviços prestados
