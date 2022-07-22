@@ -1,6 +1,7 @@
 # <a href="https://telecall.com.br/" target="_blank">Projeto Telecall (2022.1)</a>
 
-- 💻 Projeto proposto pela empresa de telecomunicações **Telecall** em parceria com o **Centro Universitário Augusto Motta (UNISUAM)** para o <ins>__*primeiro semestre*__</ins> do curso de <ins>__*Análise e Desenvolvimento de Sistemas (1/5)*__</ins>.
+- 💻 Projeto front-end proposto pela empresa de telecomunicações **Telecall** em parceria com o **Centro Universitário Augusto Motta (UNISUAM)** para o <ins>__*primeiro semestre*__</ins> do curso de <ins>__*Análise e Desenvolvimento de Sistemas (1/5)*__</ins>.
+
 
 ### ‼️ Versão Alpha ‼️
 
@@ -18,9 +19,11 @@
 
 ## ⚙️ Funcionalidades:
 
-- O site conta com tela de login e cadastro utilizando **validação** em JavaScript e armazenamento de dados locais no navegador por meio de **localStorage**.
-- Ao efetuar o cadastro e autenticação, o usuário é redirecionado à página inicial do website contendo seu apelido na parte superior e um botão para log-out.
-- Função de acessibilidade podendo alterar para modo escuro através de um botão no menu de navegação.
+- O site conta com tela de login e cadastro com **validação** de formulário em JavaScript.
+- Armazenamento de dados locais utilizando **localStorage**.
+- Ao efetuar o **cadastro** e **autenticação**, o usuário é redirecionado à página inicial do website contendo seu **apelido** na qual o usuário utilizou para realizar o cadastro na parte superior da página e um botão para realizar o **log-out**.
+- Função de **acessibilidade** podendo alterar para **modo escuro** através de um botão no menu de navegação.
+- O modo escuro permanece ao trocar de página por meio do **localStorage**.
 
 ## Frameworks utilizadas:
 <div style="display: inline_block">
