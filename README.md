@@ -27,7 +27,7 @@
   <img align="center" alt="bstrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
   <img align="center" alt="js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg">
 </div>
-
+<br>
 # <a href="https://gsalustrianosouza.github.io/Projeto-Telecall/CPaaS.html" target="_blank">👉🏼 CLIQUE AQUI PARA PRÉ-VISUALIZAR</a>
 
           
