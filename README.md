@@ -22,10 +22,6 @@
 - Ao efetuar o cadastro e autenticação, o usuário é redirecionado à página inicial do website contendo seu apelido na parte superior e um botão para log-out.
 - Função de acessibilidade podendo alterar para modo escuro através de um botão no menu de navegação.
 
-<p align="center">
-  <img width="660" height="400" src="https://i.imgur.com/EnJKGD1.png">
-</p>
-
 ## Frameworks utilizadas:
 <div style="display: inline_block">
   <img align="center" alt="bstrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
