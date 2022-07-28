@@ -7,7 +7,7 @@
 
 ## 🌐 Site completo incluindo:
 
-[  ] Tela de cadastro de usuários<br>
+[ ] Tela de cadastro de usuários<br>
 [ x ] Tela de autenticação<br>
 [ x ] Tela inicial (Home Page)<br>
 [ x ] Tela para serviços prestados<br>
