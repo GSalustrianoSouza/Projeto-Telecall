@@ -7,15 +7,15 @@
 
 ## 🌐 Site completo incluindo:
 
-✔️ Tela de cadastro de usuários<br>
-✔️ Tela de autenticação<br>
-✔️ Tela inicial (Home Page)<br>
-✔️ Tela para serviços prestados<br>
-✔️ Tela de serviços **CPaaS**<br>
-✔️ Menu de navegação<br>
-✔️ Submenu (side-menu)<br>
-✔️ Responsividade (Mobile e Desktop)<br>
-✔️ Dark Mode<br>
+[ x ] Tela de cadastro de usuários<br>
+[ x ] Tela de autenticação<br>
+[ x ] Tela inicial (Home Page)<br>
+[ x ] Tela para serviços prestados<br>
+[ x ] Tela de serviços **CPaaS**<br>
+[ x ] Menu de navegação<br>
+[ x ] Submenu (side-menu)<br>
+[ x ] Responsividade (Mobile e Desktop)<br>
+[ x ] Dark Mode<br>
 
 ## ⚙️ Funcionalidades:
 
