@@ -7,23 +7,28 @@
 
 ## 🌐 Site completo incluindo:
 
-- [x] Tela de cadastro de usuários<br>
-[ x ] Tela de autenticação<br>
-[ x ] Tela inicial (Home Page)<br>
-[ x ] Tela para serviços prestados<br>
-[ x ] Tela de serviços **CPaaS**<br>
-[ x ] Menu de navegação<br>
-[ x ] Submenu (side-menu)<br>
-[ x ] Responsividade (Mobile e Desktop)<br>
-[ x ] Dark Mode<br>
+- [x] Tela de cadastro de usuários
+- [x] Tela de autenticação
+- [x] Tela inicial (Home Page)
+- [x] Tela para serviços prestados
+- [x] Tela de serviços **CPaaS**
+- [x] Menu de navegação
+- [x] Submenu (side-menu)
+- [x] Responsividade (Mobile e Desktop)
+- [x] Dark Mode
 
 ## ⚙️ Funcionalidades:
 
-- O site conta com tela de login e cadastro com **validação** de formulário em JavaScript.
-- Armazenamento de dados locais utilizando **localStorage**.
-- Ao efetuar o **cadastro** e **autenticação**, o usuário é redirecionado à página inicial do website contendo seu **apelido** na qual o usuário utilizou para realizar o cadastro na parte superior da página e um botão para realizar o **log-out**.
-- Função de **acessibilidade** podendo alterar para **modo escuro** através de um botão no menu de navegação.
-- O modo escuro permanece ao trocar de página por meio do **localStorage**.
+- [x] O site conta com tela de login e cadastro com **validação** de formulário em JavaScript.
+- [x] Armazenamento de dados locais utilizando **localStorage**.
+- [x] Ao efetuar o **cadastro** e **autenticação**, o usuário é redirecionado à página inicial do website contendo seu **apelido** na qual o usuário utilizou para realizar o cadastro na parte superior da página e um botão para realizar o **log-out**.
+- [x] Função de **acessibilidade** podendo alterar para **modo escuro** através de um botão no menu de navegação.
+- [x] O modo escuro permanece ao trocar de página por meio do **localStorage**.
+
+## 🛠 Correções:
+
+- [ ] Arrumar os cards no modo escuro
+- [ ] Melhorias de design
 
 ## Frameworks utilizadas:
 <div style="display: inline_block">
